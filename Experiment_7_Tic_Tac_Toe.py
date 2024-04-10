@@ -21,7 +21,7 @@ def check_win(board, player):
         return True
     if board[0][2] == player and board[1][1] == player and board[2][0] == player:
         return True
-    return False
+    return False    
 
 def check_tie(board):
     for i in range(3):
